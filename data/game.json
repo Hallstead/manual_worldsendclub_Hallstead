@@ -1,35 +1,6 @@
 {
-  "game": "Stable",
-  "player": "20240121",
-  "filler_item_name": "Free Character of Your Choice",
-  "starting_items": [
-    {
-      "items": [
-        "Ryu",
-        "Akuma"
-      ]
-    },
-    {
-      "item_categories": [
-        "Left Side"
-      ],
-      "random": 1
-    },
-    {
-      "items": [
-        "Wolverine",
-        "Storm",
-        "Phoenix"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "Trash"
-      ]
-    },
-    {
-      "random": 3
-    }
-  ]
+  "game": "WorldsEndClub",
+  "player": "Hallstead",
+  "filler_item_name": "Hey, Hey, Oh!",
+  "starting_items": []
 }
