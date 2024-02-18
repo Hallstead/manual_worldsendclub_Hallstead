@@ -1,403 +1,67 @@
-[ 
-    { 
-        "name": "Jill", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Shuma-Gorath", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Nemesis T-Type", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Firebrand", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Strider Hiryu", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Phoenix Wright", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Nova", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Ghost Rider", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Hawkeye", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Doctor Strange", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Chris", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Arthur", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Frank West", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Vergil", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Iron Fist", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Rocket Raccoon", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Captain America", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Dormammu", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Wesker", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Zero", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Ryu", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Dante", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Deadpool", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Wolverine", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Iron Man", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Doctor Doom", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Morrigan", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Tron", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Chun-Li", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Trish", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "X-23", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Storm", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Thor", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "M.O.D.O.K.", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Felicia", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Spencer", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Akuma", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Viewtiful Joe", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Spider-Man", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Sentinel", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Hulk", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Super-Skrull", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Hsien-Ko", 
-        "category": [
-            "Characters",
-            "Left Side",
-            "Trash"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Haggar", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "C. Viper", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Amaterasu", 
-        "category": [
-            "Characters",
-            "Left Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Phoenix", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Magneto", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "She-Hulk", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    },
-    { 
-        "name": "Taskmaster", 
-        "category": [
-            "Characters",
-            "Right Side"
-        ],
-        "progression": true 
-    }
+[
+  {"name": "Oita", "category": ["Path"], "progression": true},
+  {"name": "Fukuoka", "category": ["Path"], "progression": true},
+  {"name": "Go", "category": ["Path"], "progression": true},
+  {"name": "Stay", "category": ["Path"], "progression": true},
+  {"name": "Osaka", "category": ["Path"], "progression": true},
+  {"name": "Kyoto", "category": ["Path"], "progression": true},
+  {"name": "Jump onto the 2nd car", "category": ["Path"], "progression": true},
+  {"name": "Bad End", "category": ["Path"], "progression": true},
+  {"name": "Cell phone screen", "category": ["Key Items"], "progression": true},
+  {"name": "Yuki's piece of paper", "category": ["Key Items"], "progression": true},
+  {"name": "Nyoro's scrap of paper", "category": ["Key Items"], "progression": true},
+  {"name": "Master's scrap of paper", "category": ["Key Items"], "progression": true},
+  {"name": "Vanilla's Funeral Portrait", "category": ["Key Items"], "progression": true},
+  {"name": "Niyan's scrap of paper", "category": ["Key Items"], "progression": true},
+  {"name": "Vanilla on the monitor", "category": ["Key Items"], "progression": true},
+  {"name": "Supercomputer seen in the monitor", "category": ["Key Items"], "progression": true},
+  {"name": "Future's Dark History", "category": ["Acts"], "progression": true},
+  {"name": "Game of Fate", "category": ["Acts"], "progression": true},
+  {"name": "Is Anybody Here", "category": ["Acts"], "progression": true},
+  {"name": "This is the Shortest Route", "category": ["Acts"], "progression": true},
+  {"name": "Yuki Fell from the Sky", "category": ["Acts"], "progression": true},
+  {"name": "Let's Go Back to Tokyo", "category": ["Acts"], "progression": true},
+  {"name": "We're Going to be Sacrificed!", "category": ["Acts"], "progression": true},
+  {"name": "Niyan, wake up!", "category": ["Acts"], "progression": true},
+  {"name": "Don't Die, Chuko!", "category": ["Acts"], "progression": true},
+  {"name": "Fork in the Road", "category": ["Acts"], "progression": true},
+  {"name": "I Hear Angels Singing", "category": ["Acts"], "progression": true},
+  {"name": "Let's Save the Others!", "category": ["Acts"], "progression": true},
+  {"name": "Raycho's True Self", "category": ["Acts"], "progression": true},
+  {"name": "Go-Getters are Always Together", "category": ["Acts"], "progression": true},
+  {"name": "The Big Finale", "category": ["Acts"], "progression": true},
+  {"name": "For the World. For Our Friends.", "category": ["Acts"], "progression": true},
+  {"name": "Showdown at the World's End", "category": ["Acts"], "progression": true},
+  {"name": "The Brief Thief", "category": ["Stickers"], "progression": true},
+  {"name": "Brussshing Ssssupervisor", "category": ["Stickers"], "progression": true},
+  {"name": "Papa Phone Booth", "category": ["Stickers"], "progression": true},
+  {"name": "Cell Phone Jr.", "category": ["Stickers"], "progression": true},
+  {"name": "Irritable", "category": ["Stickers"], "progression": true},
+  {"name": "Tissue Cat", "category": ["Stickers"], "progression": true},
+  {"name": "Impersonionator", "category": ["Stickers"], "progression": true},
+  {"name": "Toxic Tightwad", "category": ["Stickers"], "progression": true},
+  {"name": "Clog", "category": ["Stickers"], "progression": true},
+  {"name": "Supepperman", "category": ["Stickers"], "progression": true},
+  {"name": "Jellousy Bean", "category": ["Stickers"], "progression": true},
+  {"name": "Portobreado Mushroom", "category": ["Stickers"], "progression": true},
+  {"name": "Textboogeyman", "category": ["Stickers"], "progression": true},
+  {"name": "Teenpager", "category": ["Stickers"], "progression": true},
+  {"name": "Dr. Skunk", "category": ["Stickers"], "progression": true},
+  {"name": "Iron Marshal", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Red", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Green", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Blue", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Yellow", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Pink", "category": ["Stickers"], "progression": true},
+  {"name": "Adamantine Demon King", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Red 2", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Green 2", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Black ", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Blue 2", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Yellow 2", "category": ["Stickers"], "progression": true},
+  {"name": "Electro Ranger Pink 2", "category": ["Stickers"], "progression": true},
+  {"name": "Parmi-chan and her Magic Mask", "category": ["Stickers"], "progression": true},
+  {"name": "Harumi Izumi", "category": ["Stickers"], "progression": true},
+  {"name": "Good End", "category": ["Victory"], "progression": true},
+  {"name": "Victory", "category": ["Victory"], "progression": true}
 ]

@@ -26,16 +26,29 @@ from ..Helpers import is_option_enabled, get_option_value
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
-class TotalCharactersToWinWith(Range):
-    """Instead of having to beat the game with all characters, you can limit locations to a subset of character victory locations."""
-    display_name = "Number of characters to beat the game with before victory"
-    range_start = 10
-    range_end = 50
-    default = 50
+class GameMode(Choice):
+    """
+    Story Mode plays similar to the regular game and can be played from a new save or a completed one.
+    Acts Mode is just playibg the Act levels in a random order
+    """
+    display_name = "Story Mode or Acts?"
+    option_story = 0
+    option_acts = 1
 
+class Victory(Choice):
+    """
+    Good End is that you beat thr final boss and complete the story.
+    Sticker Hunt has you collecting all the stickers as the goal.
+    """
+    display_name = "Victory Condition"
+    option_Good_End = 0
+    #option_Bad_End = 1
+    option_Sticker_Hunt = 1
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
+    options["GameMode"] = GameMode
+    options["VictoryChoice"] = Victory
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

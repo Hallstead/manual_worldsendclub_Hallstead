@@ -1,8 +1,5 @@
 {
-    "New Save": {
-        "hidden": true
-    },
-    "Completed Save": {
-        "hidden": true
+    "Stickers": {
+        "yaml_option": ["Stickersanity"]
     }
 }

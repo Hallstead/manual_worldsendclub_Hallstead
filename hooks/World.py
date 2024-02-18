@@ -12,8 +12,9 @@ from ..Locations import ManualLocation
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_option_enabled, get_option_value
+from ..Helpers import is_option_enabled, get_option_value, is_category_enabled
 
+import random
 
 
 ########################################################################################
@@ -39,6 +40,18 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove = [] # List of location names
     
     # Add your code here to calculate which locations to remove
+    vic_list = ["Good End", "Collect 30 Stickers"]
+    vic_option = get_option_value(world, player, "VictoryChoice")
+    if vic_option == 0:
+        vic_loc_name = vic_list[0]
+    elif vic_option == 1:
+        vic_loc_name = vic_list[1]
+    else:
+        vic_loc_name = "Bad End"
+    
+    for loc in vic_list:
+        if loc != vic_loc_name:
+            locationNamesToRemove.append(loc)
     
     for region in multiworld.regions:
         if region.player == player:
@@ -78,7 +91,11 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     itemNamesToRemove = [] # List of item names
     
     # Add your code here to calculate which items to remove.
-    # 
+    if is_category_enabled(multiworld, player, "Story") is True:
+        itemNamesToRemove.append(random.choice(["Oita", "Fukuoka"]))
+        itemNamesToRemove.append(random.choice(["Go", "Stay"]))
+        itemNamesToRemove.append(random.choice(["Osaka", "Kyoto"]))
+        #pass
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
     
