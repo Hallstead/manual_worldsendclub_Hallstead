@@ -41,7 +41,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     
     # Add your code here to calculate which locations to remove
     vic_list = ["Good End", "Collect 30 Stickers"]
-    vic_option = get_option_value(world, player, "VictoryChoice")
+    vic_option = get_option_value(multiworld, player, "VictoryChoice")
     if vic_option == 0:
         vic_loc_name = vic_list[0]
     elif vic_option == 1:
