@@ -14,4 +14,18 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
         if Helpers.get_option_value(world, player, "GameMode") == 1:
             return True
         return False
+    if category_name == "Good End":
+        if Helpers.get_option_value(world, player, "VictoryChoice") == 0:
+            return True
+        return False
+    if category_name == "Sticker Hunt":
+        if Helpers.get_option_value(world, player, "VictoryChoice") == 1:
+            return True
+        return False
+    if category_name == "Stickers" or category_name == "_Stickers":
+        if Helpers.get_option_value(world, player, "VictoryChoice") == 1:
+            return True
+        elif Helpers.get_option_value(world, player, "Stickersanity") == 1:
+            return True
+        return False
     return None

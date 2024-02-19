@@ -38,7 +38,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
-    
+    """
     # Add your code here to calculate which locations to remove
     vic_list = ["Good End", "Collect 30 Stickers"]
     vic_option = get_option_value(multiworld, player, "VictoryChoice")
@@ -52,7 +52,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     for loc in vic_list:
         if loc != vic_loc_name:
             locationNamesToRemove.append(loc)
-    
+    """
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):

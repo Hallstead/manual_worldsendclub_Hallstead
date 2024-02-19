@@ -6,7 +6,7 @@
   {"name": "Osaka", "category": ["Path"], "progression": true},
   {"name": "Kyoto", "category": ["Path"], "progression": true},
   {"name": "Jump onto the 2nd car", "category": ["Path"], "progression": true},
-  {"name": "Bad End", "category": ["Path"], "progression": true},
+  {"name": "Bad End", "category": ["Endings", "Path"], "progression": true},
   {"name": "Cell phone screen", "category": ["Key Items"], "progression": true},
   {"name": "Yuki's piece of paper", "category": ["Key Items"], "progression": true},
   {"name": "Nyoro's scrap of paper", "category": ["Key Items"], "progression": true},
@@ -15,7 +15,6 @@
   {"name": "Niyan's scrap of paper", "category": ["Key Items"], "progression": true},
   {"name": "Vanilla on the monitor", "category": ["Key Items"], "progression": true},
   {"name": "Supercomputer seen in the monitor", "category": ["Key Items"], "progression": true},
-  {"name": "Future's Dark History", "category": ["Acts"], "progression": true},
   {"name": "Game of Fate", "category": ["Acts"], "progression": true},
   {"name": "Is Anybody Here", "category": ["Acts"], "progression": true},
   {"name": "This is the Shortest Route", "category": ["Acts"], "progression": true},
@@ -62,6 +61,6 @@
   {"name": "Electro Ranger Pink 2", "category": ["Stickers"], "progression": true},
   {"name": "Parmi-chan and her Magic Mask", "category": ["Stickers"], "progression": true},
   {"name": "Harumi Izumi", "category": ["Stickers"], "progression": true},
-  {"name": "Good End", "category": ["Victory"], "progression": true},
+  {"name": "Good End", "category": ["Endings", "Good End"], "progression": true},
   {"name": "Victory", "category": ["Victory"], "progression": true}
 ]

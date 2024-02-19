@@ -1,5 +1,23 @@
 {
     "Stickers": {
-        "yaml_option": ["Stickersanity"]
+        "hidden": false
+    },
+    "_Stickers": {
+        "hidden": true
+    },
+    "Good End": {
+        "hidden": true
+    },
+    "Sticker Hunt": {
+        "hidden": true
+    },
+    "Story": {
+        "hidden": true
+    },
+    "Acts": {
+        "hidden": false
+    },
+    "_Acts": {
+        "hidden": true
     }
 }
