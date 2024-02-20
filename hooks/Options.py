@@ -29,7 +29,7 @@ from ..Helpers import is_option_enabled, get_option_value
 class GameMode(Choice):
     """
     Story Mode plays similar to the regular game and can be played from a new save or a completed one.
-    Acts Mode is just playibg the Act levels in a random order
+    Acts Mode is just playing the Act levels in a random order
     """
     display_name = "Story Mode or Acts?"
     option_story = 0
