@@ -1,7 +1,7 @@
 [
     {"name": "Victory", "category": ["Victory"], "requires": "|Victory|", "victory": true},
     {"name": "Good End", "category": ["Victory", "Good End"], "region": "Victory", "place_item": ["Victory"], "requires": "|Good End|"},
-    {"name": "Collect 30 Stickers", "category": ["Victory", "Sticker Hunt"], "region": "Victory", "place_item": ["Victory"], "requires": "|@_Stickers:30|"},
+    {"name": "Collect 30 Stickers", "category": ["Victory", "Sticker Hunt"], "region": "Victory", "place_item": ["Victory"], "requires": "|@Stickers:30|"},
     {"name": "Act - Future's Dark History", "category": ["Story", "Act 01 - Future's Dark History"], "region": "Prologue"},
     {"name": "Act - Game of Fate", "category": ["Story", "Act 02 - Game of Fate"], "region": "Prologue"},
     {"name": "Act - Is Anybody Here", "category": ["Story", "Act 03 - Is Anybody Here"], "region": "Prologue"},
@@ -59,8 +59,8 @@
     {"name": "Sticker - Portobreado Mushroom", "category": ["_Stickers", "Story", "Act 09 - I Hear Angels Singing"], "region": "Press the emergency button"},
     {"name": "Sticker - Textboogeyman", "category": ["_Stickers", "Story", "Act 11 - Go-Getters are Always Together"], "region": "Press the emergency button"},
     {"name": "Sticker - Teenpager", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
-    {"name": "Sticker - Dr. Skunk", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
-    {"name": "Sticker - Iron Marshal", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
+    {"name": "Sticker - Dr. Skunk", "category": ["_Stickers", "Story", "Act 14 - Showdown at the World's End"], "region": "Finale"},
+    {"name": "Sticker - Iron Marshal", "category": ["_Stickers", "Story", "Act 14 - Showdown at the World's End"], "region": "Finale"},
     {"name": "Sticker - Electro Ranger Red", "category": ["_Stickers", "Story", "Act 02 - Game of Fate"], "region": "Prologue"},
     {"name": "Sticker - Electro Ranger Green", "category": ["_Stickers", "Story", "Act 03 - Is Anybody Here"], "region": "Prologue"},
     {"name": "Sticker - Electro Ranger Blue", "category": ["_Stickers", "Story", "Act 04A - This is the Shortest Route"], "region": "Oita"},
@@ -74,7 +74,7 @@
     {"name": "Sticker - Electro Ranger Yellow 2", "category": ["_Stickers", "Story", "Act 09 - I Hear Angels Singing"], "region": "Press the emergency button"},
     {"name": "Sticker - Electro Ranger Pink 2", "category": ["_Stickers", "Story", "Act 11 - Go-Getters are Always Together"], "region": "Press the emergency button"},
     {"name": "Sticker - Parmi-chan and her Magic Mask", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
-    {"name": "Sticker - Harumi Izumi", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
+    {"name": "Sticker - Harumi Izumi", "category": ["_Stickers", "Story", "Act 14 - Showdown at the World's End"], "region": "Finale"},
     {"name": "Sticker - The Brief Thief ", "category": ["_Stickers", "_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
     {"name": "Sticker - Brussshing Ssssupervisor ", "category": ["_Stickers", "_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
     {"name": "Sticker - Papa Phone Booth ", "category": ["_Stickers", "_Acts", "Act 03 - Is Anybody Here"], "region": "Map", "requires": "|Is Anybody Here|"},
@@ -89,8 +89,8 @@
     {"name": "Sticker - Portobreado Mushroom ", "category": ["_Stickers", "_Acts", "Act 09 - I Hear Angels Singing"], "region": "Map", "requires": "|I Hear Angels Singing|"},
     {"name": "Sticker - Textboogeyman ", "category": ["_Stickers", "_Acts", "Act 11 - Go-Getters are Always Together"], "region": "Map", "requires": "|Go-Getters are Always Together|"},
     {"name": "Sticker - Teenpager ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
-    {"name": "Sticker - Dr. Skunk ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
-    {"name": "Sticker - Iron Marshal ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
+    {"name": "Sticker - Dr. Skunk ", "category": ["_Stickers", "_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|"},
+    {"name": "Sticker - Iron Marshal ", "category": ["_Stickers", "_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|"},
     {"name": "Sticker - Electro Ranger Red ", "category": ["_Stickers", "_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
     {"name": "Sticker - Electro Ranger Green ", "category": ["_Stickers", "_Acts", "Act 03 - Is Anybody Here"], "region": "Map", "requires": "|Is Anybody Here|"},
     {"name": "Sticker - Electro Ranger Blue ", "category": ["_Stickers", "_Acts", "Act 04A - This is the Shortest Route"], "region": "Map", "requires": "|This is the Shortest Route|"},
@@ -104,5 +104,5 @@
     {"name": "Sticker - Electro Ranger Yellow 2 ", "category": ["_Stickers", "_Acts", "Act 09 - I Hear Angels Singing"], "region": "Map", "requires": "|I Hear Angels Singing|"},
     {"name": "Sticker - Electro Ranger Pink 2 ", "category": ["_Stickers", "_Acts", "Act 11 - Go-Getters are Always Together"], "region": "Map", "requires": "|Go-Getters are Always Together|"},
     {"name": "Sticker - Parmi-chan and her Magic Mask ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
-    {"name": "Sticker - Harumi Izumi ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"}
+    {"name": "Sticker - Harumi Izumi ", "category": ["_Stickers", "_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|"}
 ]

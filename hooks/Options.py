@@ -44,10 +44,15 @@ class Victory(Choice):
     option_good_end = 0
     option_sticker_hunt = 1
 
+class Stickersanity(Toggle):
+    """Should Sticker locations be included in the randomizer?"""
+    display_name = "Stickersanity"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["GameMode"] = GameMode
     options["VictoryChoice"] = Victory
+    options["Stickersanity"] = Stickersanity
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

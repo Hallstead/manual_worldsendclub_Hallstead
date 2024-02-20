@@ -10,7 +10,7 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
         if Helpers.get_option_value(world, player, "GameMode") == 0:
             return True
         return False
-    if category_name == "Acts":
+    if category_name in ["Acts", "_Acts"]:
         if Helpers.get_option_value(world, player, "GameMode") == 1:
             return True
         return False

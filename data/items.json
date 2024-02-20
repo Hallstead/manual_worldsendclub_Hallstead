@@ -61,6 +61,6 @@
   {"name": "Electro Ranger Pink 2", "category": ["Stickers"], "progression": true},
   {"name": "Parmi-chan and her Magic Mask", "category": ["Stickers"], "progression": true},
   {"name": "Harumi Izumi", "category": ["Stickers"], "progression": true},
-  {"name": "Good End", "category": ["Endings", "Good End"], "progression": true},
+  {"name": "Good End", "category": ["Endings"], "progression": true},
   {"name": "Victory", "category": ["Victory"], "progression": true}
 ]
