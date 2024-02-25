@@ -8,74 +8,62 @@
     "starting": true
   },
   "Oita": {
-    "requires": "|Oita| or |Bad End|",
     "connects_to": [
       "Cult"
     ]
   },
   "Fukuoka": {
-    "requires": "|Fukuoka| or |Bad End|",
     "connects_to": [
       "Cult"
     ]
   },
   "Cult": {
-    "requires": "|Oita| or |Fukuoka|",
     "connects_to": [
       "Go",
       "Stay"
     ]
   },
   "Go": {
-    "requires": "|Go| or |Bad End|",
     "connects_to": [
       "What next?"
     ]
   },
   "Stay": {
-    "requires": "|Stay| or |Bad End|",
     "connects_to": [
       "What next?"
   ]
   },
   "What next?": {
-    "requires": "|Go| or |Stay|",
     "connects_to": [
       "Osaka",
       "Kyoto"
     ]
   },
   "Osaka": {
-    "requires": "|Osaka| or |Bad End|",
     "connects_to": [
       "Train"
     ]
   },
   "Kyoto": {
-    "requires": "|Kyoto| or |Bad End|",
     "connects_to": [
       "Train"
     ]
   },
   "Train": {
-    "requires": "|Osaka| or |Kyoto|",
     "connects_to": [
       "Press the emergency button",
       "Jump onto the 2nd car"
     ]
   },
   "Press the emergency button": {
-    "requires": "|Bad End|",
     "connects_to": [
       "Finale"
     ]
   },
   "Jump onto the 2nd car": {
-    "requires": "|Jump onto the 2nd car|",
     "connects_to": []
   },
   "Finale": {
-    "requires": "|@Key Items:8|",
     "connects_to": []
   },
   "Map": {

@@ -1,108 +1,360 @@
 [
-    {"name": "Victory", "category": ["Victory"], "requires": "|Victory|", "victory": true},
-    {"name": "Good End", "category": ["Victory", "Good End"], "region": "Victory", "place_item": ["Victory"], "requires": "|Good End|"},
-    {"name": "Collect 30 Stickers", "category": ["Victory", "Sticker Hunt"], "region": "Victory", "place_item": ["Victory"], "requires": "|@Stickers:30|"},
-    {"name": "Act - Future's Dark History", "category": ["Story", "Act 01 - Future's Dark History"], "region": "Prologue"},
-    {"name": "Act - Game of Fate", "category": ["Story", "Act 02 - Game of Fate"], "region": "Prologue"},
-    {"name": "Act - Is Anybody Here", "category": ["Story", "Act 03 - Is Anybody Here"], "region": "Prologue"},
-    {"name": "Act - This is the Shortest Route", "category": ["Story", "Act 04A - This is the Shortest Route"], "region": "Oita"},
-    {"name": "Act - Yuki Fell from the Sky", "category": ["Story", "Act 04B - Yuki Fell from the Sky"], "region": "Fukuoka"},
-    {"name": "Act - Let's Go Back to Tokyo", "category": ["Story", "Act 05A - Let's Go Back to Tokyo"], "region": "Go"},
-    {"name": "Act - We're Going to be Sacrificed!", "category": ["Story", "Act 05B - We're Going to be Sacrificed!"], "region": "Stay"},
-    {"name": "Act - Don't Die, Chuko!", "category": ["Story", "Act 06A - Don't Die, Chuko!"], "region": "Osaka"},
-    {"name": "Act - Niyan, wake up!", "category": ["Story", "Act 06B - Niyan, wake up!"], "region": "Kyoto"},
-    {"name": "Act - Fork in the Road", "category": ["Story", "Act 07 - Fork in the Road"], "region": "Train"},
-    {"name": "Act - Let's Save the Others!", "category": ["Story", "Act 08 - Let's Save the Others!"], "region": "Jump onto the 2nd car"},
-    {"name": "Act - I Hear Angels Singing", "category": ["Story", "Act 09 - I Hear Angels Singing"], "region": "Press the emergency button"},
-    {"name": "Act - Raycho's True Self", "category": ["Story", "Act 10 - Raycho's True Self"], "region": "Press the emergency button"},
-    {"name": "Act - Go-Getters are Always Together", "category": ["Story", "Act 11 - Go-Getters are Always Together"], "region": "Press the emergency button"},
-    {"name": "Act - The Big Finale", "category": ["Story", "Act 12 - The Big Finale"], "region": "Press the emergency button"},
-    {"name": "Act - For the World. For Our Friends.", "category": ["Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
-    {"name": "Act - Showdown at the World's End", "category": ["Story", "Act 14 - Showdown at the World's End"], "region": "Finale", "place_item": ["Good End"]},
-    {"name": "Ending - Bad End", "category": ["Story", "Act 08 - Let's Save the Others!"], "region": "Jump onto the 2nd car", "place_item": ["Bad End"]},
-    {"name": "Act - Future's Dark History ", "category": ["_Acts", "Act 01 - Future's Dark History"], "region": "Map", "requires": []},
-    {"name": "Act - Game of Fate ", "category": ["_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
-    {"name": "Act - Is Anybody Here ", "category": ["_Acts", "Act 03 - Is Anybody Here"], "region": "Map", "requires": "|Is Anybody Here|"},
-    {"name": "Act - This is the Shortest Route ", "category": ["_Acts", "Act 04A - This is the Shortest Route"], "region": "Map", "requires": "|This is the Shortest Route|"},
-    {"name": "Act - Yuki Fell from the Sky ", "category": ["_Acts", "Act 04B - Yuki Fell from the Sky"], "region": "Map", "requires": "|Yuki Fell from the Sky|"},
-    {"name": "Act - Let's Go Back to Tokyo ", "category": ["_Acts", "Act 05A - Let's Go Back to Tokyo"], "region": "Map", "requires": "|Let's Go Back to Tokyo|"},
-    {"name": "Act - We're Going to be Sacrificed! ", "category": ["_Acts", "Act 05B - We're Going to be Sacrificed!"], "region": "Map", "requires": "|We're Going to be Sacrificed!|"},
-    {"name": "Act - Don't Die, Chuko! ", "category": ["_Acts", "Act 06A - Don't Die, Chuko!"], "region": "Map", "requires": "|Don't Die, Chuko!|"},
-    {"name": "Act - Niyan, wake up! ", "category": ["_Acts", "Act 06B - Niyan, wake up!"], "region": "Map", "requires": "|Niyan, wake up!|"},
-    {"name": "Act - Fork in the Road ", "category": ["_Acts", "Act 07 - Fork in the Road"], "region": "Map", "requires": "|Fork in the Road|"},
-    {"name": "Act - Let's Save the Others! ", "category": ["_Acts", "Act 08 - Let's Save the Others!"], "region": "Map", "requires": "|Let's Save the Others!|"},
-    {"name": "Act - I Hear Angels Singing ", "category": ["_Acts", "Act 09 - I Hear Angels Singing"], "region": "Map", "requires": "|I Hear Angels Singing|"},
-    {"name": "Act - Raycho's True Self ", "category": ["_Acts", "Act 10 - Raycho's True Self"], "region": "Map", "requires": "|Raycho's True Self|"},
-    {"name": "Act - Go-Getters are Always Together ", "category": ["_Acts", "Act 11 - Go-Getters are Always Together"], "region": "Map", "requires": "|Go-Getters are Always Together|"},
-    {"name": "Act - The Big Finale ", "category": ["_Acts", "Act 12 - The Big Finale"], "region": "Map", "requires": "|The Big Finale|"},
-    {"name": "Act - For the World. For Our Friends. ", "category": ["_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
-    {"name": "Act - Showdown at the World's End ", "category": ["_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|", "place_item": ["Good End"]},
-    {"name": "Key Item - Cell phone screen", "category": ["Key Items", "Act 04A - This is the Shortest Route"], "region": "Oita"},
-    {"name": "Key Item - Yuki's piece of paper", "category": ["Key Items", "Act 04B - Yuki Fell from the Sky"], "region": "Fukuoka"},
-    {"name": "Key Item - Nyoro's scrap of paper", "category": ["Key Items", "Act 05A - Let's Go Back to Tokyo"], "region": "Go"},
-    {"name": "Key Item - Master's scrap of paper", "category": ["Key Items", "Act 05B - We're Going to be Sacrificed!"], "region": "Stay"},
-    {"name": "Key Item - Vanilla's Funeral Portrait", "category": ["Key Items", "Act 06A - Don't Die, Chuko!"], "region": "Osaka"},
-    {"name": "Key Item - Niyan's scrap of paper", "category": ["Key Items", "Act 06B - Niyan, wake up!"], "region": "Kyoto"},
-    {"name": "Key Item - Vanilla on the monitor", "category": ["Key Items", "Act 08 - Let's Save the Others!"], "region": "Jump onto the 2nd car"},
-    {"name": "Key Item - Supercomputer seen in the monitor", "category": ["Key Items", "Act 08 - Let's Save the Others!"], "region": "Jump onto the 2nd car"},
-    {"name": "Sticker - The Brief Thief", "category": ["_Stickers", "Story", "Act 02 - Game of Fate"], "region": "Prologue"},
-    {"name": "Sticker - Brussshing Ssssupervisor", "category": ["_Stickers", "Story", "Act 02 - Game of Fate"], "region": "Prologue"},
-    {"name": "Sticker - Papa Phone Booth", "category": ["_Stickers", "Story", "Act 03 - Is Anybody Here"], "region": "Prologue"},
-    {"name": "Sticker - Cell Phone Jr.", "category": ["_Stickers", "Story", "Act 04A - This is the Shortest Route"], "region": "Oita"},
-    {"name": "Sticker - Irritable", "category": ["_Stickers", "Story", "Act 04B - Yuki Fell from the Sky"], "region": "Fukuoka"},
-    {"name": "Sticker - Tissue Cat", "category": ["_Stickers", "Story", "Act 05A - Let's Go Back to Tokyo"], "region": "Go"},
-    {"name": "Sticker - Impersonionator", "category": ["_Stickers", "Story", "Act 05B - We're Going to be Sacrificed!"], "region": "Stay"},
-    {"name": "Sticker - Toxic Tightwad", "category": ["_Stickers", "Story", "Act 06A - Don't Die, Chuko!"], "region": "Osaka"},
-    {"name": "Sticker - Clog", "category": ["_Stickers", "Story", "Act 06B - Niyan, wake up!"], "region": "Kyoto"},
-    {"name": "Sticker - Supepperman", "category": ["_Stickers", "Story", "Act 07 - Fork in the Road"], "region": "Train"},
-    {"name": "Sticker - Jellousy Bean", "category": ["_Stickers", "Story", "Act 08 - Let's Save the Others!"], "region": "Jump onto the 2nd car"},
-    {"name": "Sticker - Portobreado Mushroom", "category": ["_Stickers", "Story", "Act 09 - I Hear Angels Singing"], "region": "Press the emergency button"},
-    {"name": "Sticker - Textboogeyman", "category": ["_Stickers", "Story", "Act 11 - Go-Getters are Always Together"], "region": "Press the emergency button"},
-    {"name": "Sticker - Teenpager", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
-    {"name": "Sticker - Dr. Skunk", "category": ["_Stickers", "Story", "Act 14 - Showdown at the World's End"], "region": "Finale"},
-    {"name": "Sticker - Iron Marshal", "category": ["_Stickers", "Story", "Act 14 - Showdown at the World's End"], "region": "Finale"},
-    {"name": "Sticker - Electro Ranger Red", "category": ["_Stickers", "Story", "Act 02 - Game of Fate"], "region": "Prologue"},
-    {"name": "Sticker - Electro Ranger Green", "category": ["_Stickers", "Story", "Act 03 - Is Anybody Here"], "region": "Prologue"},
-    {"name": "Sticker - Electro Ranger Blue", "category": ["_Stickers", "Story", "Act 04A - This is the Shortest Route"], "region": "Oita"},
-    {"name": "Sticker - Electro Ranger Yellow", "category": ["_Stickers", "Story", "Act 04B - Yuki Fell from the Sky"], "region": "Fukuoka"},
-    {"name": "Sticker - Electro Ranger Pink", "category": ["_Stickers", "Story", "Act 05A - Let's Go Back to Tokyo"], "region": "Go"},
-    {"name": "Sticker - Adamantine Demon King", "category": ["_Stickers", "Story", "Act 05B - We're Going to be Sacrificed!"], "region": "Stay"},
-    {"name": "Sticker - Electro Ranger Red 2", "category": ["_Stickers", "Story", "Act 06A - Don't Die, Chuko!"], "region": "Osaka"},
-    {"name": "Sticker - Electro Ranger Green 2", "category": ["_Stickers", "Story", "Act 06B - Niyan, wake up!"], "region": "Kyoto"},
-    {"name": "Sticker - Electro Ranger Black ", "category": ["_Stickers", "Story", "Act 07 - Fork in the Road"], "region": "Train"},
-    {"name": "Sticker - Electro Ranger Blue 2", "category": ["_Stickers", "Story", "Act 08 - Let's Save the Others!"], "region": "Jump onto the 2nd car"},
-    {"name": "Sticker - Electro Ranger Yellow 2", "category": ["_Stickers", "Story", "Act 09 - I Hear Angels Singing"], "region": "Press the emergency button"},
-    {"name": "Sticker - Electro Ranger Pink 2", "category": ["_Stickers", "Story", "Act 11 - Go-Getters are Always Together"], "region": "Press the emergency button"},
-    {"name": "Sticker - Parmi-chan and her Magic Mask", "category": ["_Stickers", "Story", "Act 13 - For the World. For Our Friends."], "region": "Finale"},
-    {"name": "Sticker - Harumi Izumi", "category": ["_Stickers", "Story", "Act 14 - Showdown at the World's End"], "region": "Finale"},
-    {"name": "Sticker - The Brief Thief ", "category": ["_Stickers", "_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
-    {"name": "Sticker - Brussshing Ssssupervisor ", "category": ["_Stickers", "_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
-    {"name": "Sticker - Papa Phone Booth ", "category": ["_Stickers", "_Acts", "Act 03 - Is Anybody Here"], "region": "Map", "requires": "|Is Anybody Here|"},
-    {"name": "Sticker - Cell Phone Jr. ", "category": ["_Stickers", "_Acts", "Act 04A - This is the Shortest Route"], "region": "Map", "requires": "|This is the Shortest Route|"},
-    {"name": "Sticker - Irritable ", "category": ["_Stickers", "_Acts", "Act 04B - Yuki Fell from the Sky"], "region": "Map", "requires": "|Yuki Fell from the Sky|"},
-    {"name": "Sticker - Tissue Cat ", "category": ["_Stickers", "_Acts", "Act 05A - Let's Go Back to Tokyo"], "region": "Map", "requires": "|Let's Go Back to Tokyo|"},
-    {"name": "Sticker - Impersonionator ", "category": ["_Stickers", "_Acts", "Act 05B - We're Going to be Sacrificed!"], "region": "Map", "requires": "|We're Going to be Sacrificed!|"},
-    {"name": "Sticker - Toxic Tightwad ", "category": ["_Stickers", "_Acts", "Act 06A - Don't Die, Chuko!"], "region": "Map", "requires": "|Don't Die, Chuko!|"},
-    {"name": "Sticker - Clog ", "category": ["_Stickers", "_Acts", "Act 06B - Niyan, wake up!"], "region": "Map", "requires": "|Niyan, wake up!|"},
-    {"name": "Sticker - Supepperman ", "category": ["_Stickers", "_Acts", "Act 07 - Fork in the Road"], "region": "Map", "requires": "|Fork in the Road|"},
-    {"name": "Sticker - Jellousy Bean ", "category": ["_Stickers", "_Acts", "Act 08 - Let's Save the Others!"], "region": "Map", "requires": "|Let's Save the Others!|"},
-    {"name": "Sticker - Portobreado Mushroom ", "category": ["_Stickers", "_Acts", "Act 09 - I Hear Angels Singing"], "region": "Map", "requires": "|I Hear Angels Singing|"},
-    {"name": "Sticker - Textboogeyman ", "category": ["_Stickers", "_Acts", "Act 11 - Go-Getters are Always Together"], "region": "Map", "requires": "|Go-Getters are Always Together|"},
-    {"name": "Sticker - Teenpager ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
-    {"name": "Sticker - Dr. Skunk ", "category": ["_Stickers", "_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|"},
-    {"name": "Sticker - Iron Marshal ", "category": ["_Stickers", "_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|"},
-    {"name": "Sticker - Electro Ranger Red ", "category": ["_Stickers", "_Acts", "Act 02 - Game of Fate"], "region": "Map", "requires": "|Game of Fate|"},
-    {"name": "Sticker - Electro Ranger Green ", "category": ["_Stickers", "_Acts", "Act 03 - Is Anybody Here"], "region": "Map", "requires": "|Is Anybody Here|"},
-    {"name": "Sticker - Electro Ranger Blue ", "category": ["_Stickers", "_Acts", "Act 04A - This is the Shortest Route"], "region": "Map", "requires": "|This is the Shortest Route|"},
-    {"name": "Sticker - Electro Ranger Yellow ", "category": ["_Stickers", "_Acts", "Act 04B - Yuki Fell from the Sky"], "region": "Map", "requires": "|Yuki Fell from the Sky|"},
-    {"name": "Sticker - Electro Ranger Pink ", "category": ["_Stickers", "_Acts", "Act 05A - Let's Go Back to Tokyo"], "region": "Map", "requires": "|Let's Go Back to Tokyo|"},
-    {"name": "Sticker - Adamantine Demon King ", "category": ["_Stickers", "_Acts", "Act 05B - We're Going to be Sacrificed!"], "region": "Map", "requires": "|We're Going to be Sacrificed!|"},
-    {"name": "Sticker - Electro Ranger Red 2 ", "category": ["_Stickers", "_Acts", "Act 06A - Don't Die, Chuko!"], "region": "Map", "requires": "|Don't Die, Chuko!|"},
-    {"name": "Sticker - Electro Ranger Green 2 ", "category": ["_Stickers", "_Acts", "Act 06B - Niyan, wake up!"], "region": "Map", "requires": "|Niyan, wake up!|"},
-    {"name": "Sticker - Electro Ranger Black  ", "category": ["_Stickers", "_Acts", "Act 07 - Fork in the Road"], "region": "Map", "requires": "|Fork in the Road|"},
-    {"name": "Sticker - Electro Ranger Blue 2 ", "category": ["_Stickers", "_Acts", "Act 08 - Let's Save the Others!"], "region": "Map", "requires": "|Let's Save the Others!|"},
-    {"name": "Sticker - Electro Ranger Yellow 2 ", "category": ["_Stickers", "_Acts", "Act 09 - I Hear Angels Singing"], "region": "Map", "requires": "|I Hear Angels Singing|"},
-    {"name": "Sticker - Electro Ranger Pink 2 ", "category": ["_Stickers", "_Acts", "Act 11 - Go-Getters are Always Together"], "region": "Map", "requires": "|Go-Getters are Always Together|"},
-    {"name": "Sticker - Parmi-chan and her Magic Mask ", "category": ["_Stickers", "_Acts", "Act 13 - For the World. For Our Friends."], "region": "Map", "requires": "|For the World. For Our Friends.|"},
-    {"name": "Sticker - Harumi Izumi ", "category": ["_Stickers", "_Acts", "Act 14 - Showdown at the World's End"], "region": "Map", "requires": "|Showdown at the World's End|"}
+    {
+        "name": "Victory",
+        "category": ["Victory"],
+        "requires": "|Victory|",
+        "victory": true
+    },
+    {
+        "name": "Good End",
+        "category": ["Victory", "Good End"],
+        "region": "Victory",
+        "place_item": ["Victory"],
+        "requires": "|Good End|"
+    },
+    {
+        "name": "Collect 30 Stickers",
+        "category": ["Victory", "Sticker Hunt"],
+        "region": "Victory",
+        "place_item": ["Victory"],
+        "requires": "|@Stickers:30|"
+    },
+    {
+        "name": "Act - Future's Dark History",
+        "category": ["Act 01 - Future's Dark History"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Future's Dark History|"
+    },
+    {
+        "name": "Act - Game of Fate",
+        "category": ["Act 02 - Game of Fate"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Game of Fate|"
+    },
+    {
+        "name": "Act - Is Anybody Here",
+        "category": ["Act 03 - Is Anybody Here"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Is Anybody Here|"
+    },
+    {
+        "name": "Act - This is the Shortest Route",
+        "category": ["Act 04A - This is the Shortest Route"],
+        "region": "Oita",
+        "requires": "(|Prologue| and |Oita|) or |Bad End| or |This is the Shortest Route|"
+    },
+    {
+        "name": "Act - Yuki Fell from the Sky",
+        "category": ["Act 04B - Yuki Fell from the Sky"],
+        "region": "Fukuoka",
+        "requires": "(|Prologue| and |Fukuoka|) or |Bad End| or |Yuki Fell from the Sky|"
+    },
+    {
+        "name": "Act - Let's Go Back to Tokyo",
+        "category": ["Act 05A - Let's Go Back to Tokyo"],
+        "region": "Go",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Go|) or |Bad End| or |Let's Go Back to Tokyo|"
+    },
+    {
+        "name": "Act - We're Going to be Sacrificed!",
+        "category": ["Act 05B - We're Going to be Sacrificed!"],
+        "region": "Stay",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Stay|) or |Bad End| or |We're Going to be Sacrificed!|"
+    },
+    {
+        "name": "Act - Don't Die, Chuko!",
+        "category": ["Act 06A - Don't Die, Chuko!"],
+        "region": "Osaka",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Osaka|) or |Bad End| or |Don't Die, Chuko!|"
+    },
+    {
+        "name": "Act - Niyan, wake up!",
+        "category": ["Act 06B - Niyan, wake up!"],
+        "region": "Kyoto",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Kyoto|) or |Bad End| or |Niyan, wake up!|"
+    },
+    {
+        "name": "Act - Fork in the Road",
+        "category": ["Act 07 - Fork in the Road"],
+        "region": "Train",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|)) or |Fork in the Road|"
+    },
+    {
+        "name": "Act - Let's Save the Others!",
+        "category": ["Act 08 - Let's Save the Others!"],
+        "region": "Jump onto the 2nd car",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|) and |Jump onto the 2nd car|) or |Let's Save the Others!|"
+    },
+    {
+        "name": "Act - I Hear Angels Singing",
+        "category": ["Act 09 - I Hear Angels Singing"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |I Hear Angels Singing|"
+    },
+    {
+        "name": "Act - Raycho's True Self",
+        "category": ["Act 10 - Raycho's True Self"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |Raycho's True Self|"
+    },
+    {
+        "name": "Act - Go-Getters are Always Together",
+        "category": ["Act 11 - Go-Getters are Always Together"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |Go-Getters are Always Together|"
+    },
+    {
+        "name": "Act - The Big Finale",
+        "category": ["Act 12 - The Big Finale"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |The Big Finale|"
+    },
+    {
+        "name": "Act - For the World. For Our Friends.",
+        "category": ["Act 13 - For the World. For Our Friends."],
+        "region": "Finale",
+        "requires": "(|Bad End| and |@Key Items:8|) or |For the World. For Our Friends.|"
+    },
+    {
+        "name": "Act - Showdown at the World's End",
+        "category": ["Act 14 - Showdown at the World's End"],
+        "region": "Finale",
+        "place_item": ["Good End"],
+        "requires": "(|Bad End| and |@Key Items:8|) or |Showdown at the World's End|"
+    },
+    {
+        "name": "Ending - Bad End",
+        "category": ["Story", "Act 08 - Let's Save the Others!"],
+        "region": "Jump onto the 2nd car",
+        "place_item": ["Bad End"],
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|) and |Jump onto the 2nd car|)"
+    },
+    {
+        "name": "Key Item - Cell phone screen",
+        "category": ["Key Items", "Act 04A - This is the Shortest Route"],
+        "region": "Oita",
+        "requires": "(|Prologue| and |Oita|) or |Bad End|"
+    },
+    {
+        "name": "Key Item - Yuki's piece of paper",
+        "category": ["Key Items", "Act 04B - Yuki Fell from the Sky"],
+        "region": "Fukuoka",
+        "requires": "(|Prologue| and |Fukuoka|) or |Bad End|"
+    },
+    {
+        "name": "Key Item - Nyoro's scrap of paper",
+        "category": ["Key Items", "Act 05A - Let's Go Back to Tokyo"],
+        "region": "Go",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Go|) or |Bad End|"
+    },
+    {
+        "name": "Key Item - Master's scrap of paper",
+        "category": ["Key Items", "Act 05B - We're Going to be Sacrificed!"],
+        "region": "Stay",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Stay|) or |Bad End|"
+    },
+    {
+        "name": "Key Item - Vanilla's Funeral Portrait",
+        "category": ["Key Items", "Act 06A - Don't Die, Chuko!"],
+        "region": "Osaka",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Osaka|) or |Bad End|"
+    },
+    {
+        "name": "Key Item - Niyan's scrap of paper",
+        "category": ["Key Items", "Act 06B - Niyan, wake up!"],
+        "region": "Kyoto",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Kyoto|) or |Bad End|"
+    },
+    {
+        "name": "Key Item - Vanilla on the monitor",
+        "category": ["Key Items", "Act 08 - Let's Save the Others!"],
+        "region": "Jump onto the 2nd car",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|) and |Jump onto the 2nd car|)"
+    },
+    {
+        "name": "Key Item - Supercomputer seen in the monitor",
+        "category": ["Key Items", "Act 08 - Let's Save the Others!"],
+        "region": "Jump onto the 2nd car",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|) and |Jump onto the 2nd car|)"
+    },
+    {
+        "name": "Sticker - The Brief Thief",
+        "category": ["_Stickers", "Act 02 - Game of Fate"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Game of Fate|"
+    },
+    {
+        "name": "Sticker - Brussshing Ssssupervisor",
+        "category": ["_Stickers", "Act 02 - Game of Fate"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Game of Fate|"
+    },
+    {
+        "name": "Sticker - Papa Phone Booth",
+        "category": ["_Stickers", "Act 03 - Is Anybody Here"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Is Anybody Here|"
+    },
+    {
+        "name": "Sticker - Cell Phone Jr.",
+        "category": ["_Stickers", "Act 04A - This is the Shortest Route"],
+        "region": "Oita",
+        "requires": "(|Prologue| and |Oita|) or |Bad End| or |This is the Shortest Route|"
+    },
+    {
+        "name": "Sticker - Irritable",
+        "category": ["_Stickers", "Act 04B - Yuki Fell from the Sky"],
+        "region": "Fukuoka",
+        "requires": "(|Prologue| and |Fukuoka|) or |Bad End| or |Yuki Fell from the Sky|"
+    },
+    {
+        "name": "Sticker - Tissue Cat",
+        "category": ["_Stickers", "Act 05A - Let's Go Back to Tokyo"],
+        "region": "Go",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Go|) or |Bad End| or |Let's Go Back to Tokyo|"
+    },
+    {
+        "name": "Sticker - Impersonionator",
+        "category": ["_Stickers", "Act 05B - We're Going to be Sacrificed!"],
+        "region": "Stay",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Stay|) or |Bad End| or |We're Going to be Sacrificed!|"
+    },
+    {
+        "name": "Sticker - Toxic Tightwad",
+        "category": ["_Stickers", "Act 06A - Don't Die, Chuko!"],
+        "region": "Osaka",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Osaka|) or |Bad End| or |Don't Die, Chuko!|"
+    },
+    {
+        "name": "Sticker - Clog",
+        "category": ["_Stickers", "Act 06B - Niyan, wake up!"],
+        "region": "Kyoto",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Kyoto|) or |Bad End| or |Niyan, wake up!|"
+    },
+    {
+        "name": "Sticker - Supepperman",
+        "category": ["_Stickers", "Act 07 - Fork in the Road"],
+        "region": "Train",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|)) or |Fork in the Road|"
+    },
+    {
+        "name": "Sticker - Jellousy Bean",
+        "category": ["_Stickers", "Act 08 - Let's Save the Others!"],
+        "region": "Jump onto the 2nd car",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|) and |Jump onto the 2nd car|) or |Let's Save the Others!|"
+    },
+    {
+        "name": "Sticker - Portobreado Mushroom",
+        "category": ["_Stickers", "Act 09 - I Hear Angels Singing"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |I Hear Angels Singing|"
+    },
+    {
+        "name": "Sticker - Textboogeyman",
+        "category": ["_Stickers", "Act 11 - Go-Getters are Always Together"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |Go-Getters are Always Together|"
+    },
+    {
+        "name": "Sticker - Teenpager",
+        "category": ["_Stickers", "Act 13 - For the World. For Our Friends."],
+        "region": "Finale",
+        "requires": "(|Bad End| and |@Key Items:8|) or |For the World. For Our Friends.|"
+    },
+    {
+        "name": "Sticker - Dr. Skunk",
+        "category": ["_Stickers", "Act 14 - Showdown at the World's End"],
+        "region": "Finale",
+        "requires": "(|Bad End| and |@Key Items:8|) or |Showdown at the World's End|"
+    },
+    {
+        "name": "Sticker - Iron Marshal",
+        "category": ["_Stickers", "Act 14 - Showdown at the World's End"],
+        "region": "Finale",
+        "requires": "(|Bad End| and |@Key Items:8|) or |Showdown at the World's End|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Red",
+        "category": ["_Stickers", "Act 02 - Game of Fate"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Game of Fate|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Green",
+        "category": ["_Stickers", "Act 03 - Is Anybody Here"],
+        "region": "Prologue",
+        "requires": "|Prologue| or |Is Anybody Here|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Blue",
+        "category": ["_Stickers", "Act 04A - This is the Shortest Route"],
+        "region": "Oita",
+        "requires": "(|Prologue| and |Oita|) or |Bad End| or |This is the Shortest Route|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Yellow",
+        "category": ["_Stickers", "Act 04B - Yuki Fell from the Sky"],
+        "region": "Fukuoka",
+        "requires": "(|Prologue| and |Fukuoka|) or |Bad End| or |Yuki Fell from the Sky|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Pink",
+        "category": ["_Stickers", "Act 05A - Let's Go Back to Tokyo"],
+        "region": "Go",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Go|) or |Bad End| or |Let's Go Back to Tokyo|"
+    },
+    {
+        "name": "Sticker - Adamantine Demon King",
+        "category": ["_Stickers", "Act 05B - We're Going to be Sacrificed!"],
+        "region": "Stay",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and |Stay|) or |Bad End| or |We're Going to be Sacrificed!|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Red 2",
+        "category": ["_Stickers", "Act 06A - Don't Die, Chuko!"],
+        "region": "Osaka",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Osaka|) or |Bad End| or |Don't Die, Chuko!|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Green 2",
+        "category": ["_Stickers", "Act 06B - Niyan, wake up!"],
+        "region": "Kyoto",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and |Kyoto|) or |Bad End| or |Niyan, wake up!|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Black ",
+        "category": ["_Stickers", "Act 07 - Fork in the Road"],
+        "region": "Train",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|)) or |Fork in the Road|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Blue 2",
+        "category": ["_Stickers", "Act 08 - Let's Save the Others!"],
+        "region": "Jump onto the 2nd car",
+        "requires": "(|Prologue| and (|Oita| or |Fukuoka|) and (|Go| or |Stay|) and (|Osaka| or |Kyoto|) and |Jump onto the 2nd car|) or |Let's Save the Others!|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Yellow 2",
+        "category": ["_Stickers", "Act 09 - I Hear Angels Singing"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |I Hear Angels Singing|"
+    },
+    {
+        "name": "Sticker - Electro Ranger Pink 2",
+        "category": ["_Stickers", "Act 11 - Go-Getters are Always Together"],
+        "region": "Press the emergency button",
+        "requires": "|Bad End| or |Go-Getters are Always Together|"
+    },
+    {
+        "name": "Sticker - Parmi-chan and her Magic Mask",
+        "category": ["_Stickers", "Act 13 - For the World. For Our Friends."],
+        "region": "Finale",
+        "requires": "(|Bad End| and |@Key Items:8|) or |For the World. For Our Friends.|"
+    },
+    {
+        "name": "Sticker - Harumi Izumi",
+        "category": ["_Stickers", "Act 14 - Showdown at the World's End"],
+        "region": "Finale",
+        "requires": "(|Bad End| and |@Key Items:8|) or |Showdown at the World's End|"
+    }
 ]

@@ -1,66 +1,266 @@
 [
-  {"name": "Oita", "category": ["Path"], "progression": true},
-  {"name": "Fukuoka", "category": ["Path"], "progression": true},
-  {"name": "Go", "category": ["Path"], "progression": true},
-  {"name": "Stay", "category": ["Path"], "progression": true},
-  {"name": "Osaka", "category": ["Path"], "progression": true},
-  {"name": "Kyoto", "category": ["Path"], "progression": true},
-  {"name": "Jump onto the 2nd car", "category": ["Path"], "progression": true},
-  {"name": "Bad End", "category": ["Endings", "Path"], "progression": true},
-  {"name": "Cell phone screen", "category": ["Key Items"], "progression": true},
-  {"name": "Yuki's piece of paper", "category": ["Key Items"], "progression": true},
-  {"name": "Nyoro's scrap of paper", "category": ["Key Items"], "progression": true},
-  {"name": "Master's scrap of paper", "category": ["Key Items"], "progression": true},
-  {"name": "Vanilla's Funeral Portrait", "category": ["Key Items"], "progression": true},
-  {"name": "Niyan's scrap of paper", "category": ["Key Items"], "progression": true},
-  {"name": "Vanilla on the monitor", "category": ["Key Items"], "progression": true},
-  {"name": "Supercomputer seen in the monitor", "category": ["Key Items"], "progression": true},
-  {"name": "Game of Fate", "category": ["Acts"], "progression": true},
-  {"name": "Is Anybody Here", "category": ["Acts"], "progression": true},
-  {"name": "This is the Shortest Route", "category": ["Acts"], "progression": true},
-  {"name": "Yuki Fell from the Sky", "category": ["Acts"], "progression": true},
-  {"name": "Let's Go Back to Tokyo", "category": ["Acts"], "progression": true},
-  {"name": "We're Going to be Sacrificed!", "category": ["Acts"], "progression": true},
-  {"name": "Niyan, wake up!", "category": ["Acts"], "progression": true},
-  {"name": "Don't Die, Chuko!", "category": ["Acts"], "progression": true},
-  {"name": "Fork in the Road", "category": ["Acts"], "progression": true},
-  {"name": "I Hear Angels Singing", "category": ["Acts"], "progression": true},
-  {"name": "Let's Save the Others!", "category": ["Acts"], "progression": true},
-  {"name": "Raycho's True Self", "category": ["Acts"], "progression": true},
-  {"name": "Go-Getters are Always Together", "category": ["Acts"], "progression": true},
-  {"name": "The Big Finale", "category": ["Acts"], "progression": true},
-  {"name": "For the World. For Our Friends.", "category": ["Acts"], "progression": true},
-  {"name": "Showdown at the World's End", "category": ["Acts"], "progression": true},
-  {"name": "The Brief Thief", "category": ["Stickers"], "progression": true},
-  {"name": "Brussshing Ssssupervisor", "category": ["Stickers"], "progression": true},
-  {"name": "Papa Phone Booth", "category": ["Stickers"], "progression": true},
-  {"name": "Cell Phone Jr.", "category": ["Stickers"], "progression": true},
-  {"name": "Irritable", "category": ["Stickers"], "progression": true},
-  {"name": "Tissue Cat", "category": ["Stickers"], "progression": true},
-  {"name": "Impersonionator", "category": ["Stickers"], "progression": true},
-  {"name": "Toxic Tightwad", "category": ["Stickers"], "progression": true},
-  {"name": "Clog", "category": ["Stickers"], "progression": true},
-  {"name": "Supepperman", "category": ["Stickers"], "progression": true},
-  {"name": "Jellousy Bean", "category": ["Stickers"], "progression": true},
-  {"name": "Portobreado Mushroom", "category": ["Stickers"], "progression": true},
-  {"name": "Textboogeyman", "category": ["Stickers"], "progression": true},
-  {"name": "Teenpager", "category": ["Stickers"], "progression": true},
-  {"name": "Dr. Skunk", "category": ["Stickers"], "progression": true},
-  {"name": "Iron Marshal", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Red", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Green", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Blue", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Yellow", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Pink", "category": ["Stickers"], "progression": true},
-  {"name": "Adamantine Demon King", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Red 2", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Green 2", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Black ", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Blue 2", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Yellow 2", "category": ["Stickers"], "progression": true},
-  {"name": "Electro Ranger Pink 2", "category": ["Stickers"], "progression": true},
-  {"name": "Parmi-chan and her Magic Mask", "category": ["Stickers"], "progression": true},
-  {"name": "Harumi Izumi", "category": ["Stickers"], "progression": true},
-  {"name": "Good End", "category": ["Endings"], "progression": true},
-  {"name": "Victory", "category": ["Victory"], "progression": true}
+  {
+    "name": "Prologue",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Oita",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Fukuoka",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Go",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Stay",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Osaka",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Kyoto",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Jump onto the 2nd car",
+    "category": ["Path"],
+    "progression": true},
+  {
+    "name": "Bad End",
+    "category": ["Endings", "Path"],
+    "progression": true},
+  {
+    "name": "Cell phone screen",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Yuki's piece of paper",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Nyoro's scrap of paper",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Master's scrap of paper",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Vanilla's Funeral Portrait",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Niyan's scrap of paper",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Vanilla on the monitor",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Supercomputer seen in the monitor",
+    "category": ["Key Items"],
+    "progression": true},
+  {
+    "name": "Future's Dark History",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Game of Fate",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Is Anybody Here",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "This is the Shortest Route",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Yuki Fell from the Sky",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Let's Go Back to Tokyo",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "We're Going to be Sacrificed!",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Niyan, wake up!",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Don't Die, Chuko!",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Fork in the Road",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "I Hear Angels Singing",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Let's Save the Others!",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Raycho's True Self",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Go-Getters are Always Together",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "The Big Finale",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "For the World. For Our Friends.",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "Showdown at the World's End",
+    "category": ["Acts"],
+    "progression": true},
+  {
+    "name": "The Brief Thief",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Brussshing Ssssupervisor",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Papa Phone Booth",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Cell Phone Jr.",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Irritable",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Tissue Cat",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Impersonionator",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Toxic Tightwad",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Clog",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Supepperman",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Jellousy Bean",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Portobreado Mushroom",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Textboogeyman",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Teenpager",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Dr. Skunk",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Iron Marshal",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Red",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Green",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Blue",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Yellow",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Pink",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Adamantine Demon King",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Red 2",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Green 2",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Black ",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Blue 2",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Yellow 2",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Electro Ranger Pink 2",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Parmi-chan and her Magic Mask",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Harumi Izumi",
+    "category": ["Stickers"],
+    "progression": true},
+  {
+    "name": "Good End",
+    "category": ["Endings"],
+    "progression": true},
+  {
+    "name": "Victory",
+    "category": ["Victory"],
+    "progression": true}
 ]
